@@ -1,0 +1,337 @@
+body{
+margin-left: 3%;
+}
+
+/* Page one styling */
+
+.homepage{
+    height:auto;
+    background: linear-gradient(101deg,white 50%,orange 50%);
+}
+
+nav{padding-top: 2%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+    display: flex;
+}
+.menu{
+    word-spacing: 70px;
+    font-size: large;
+  
+}
+
+.menu a{color: black;
+    text-decoration: none;
+}
+
+.menu a:hover{
+    color:black;
+    border-bottom: 7px solid orangered;}
+
+.cart{
+    padding-right: 5%;
+    background-color: transparent;
+}
+.icon{
+    font-size: 18px;
+    background:orangered;
+    border-radius: 50%;
+    position:relative;
+    left: -8px;
+    top:-12px;
+    color: white;
+    padding: 2.5px 5px;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.info{
+    box-sizing: border-box;
+}
+.heading{
+    color: black;
+    line-height: 75px;
+    font-size: 65px;
+}
+
+.pic{
+    float: right;
+    padding-right: 20%;
+}
+.container .info .text{
+    color:rgb(95, 85, 85);
+    font-size: 25px;
+    line-height:40px ;
+    font-weight: 700;
+}
+.button{
+    background-color: orange;
+    color: white;
+    border-bottom-left-radius: 25px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border: none;
+    padding: 20px;
+    padding-left: 8%;
+    padding-right: 6%;
+    text-align: center;
+    margin-left: 10%;
+font-size: larger;}
+    
+/* second page styling */
+.middle{
+    display: flex;
+    justify-content: space-around;
+    background-color: aliceblue;
+    padding: 5% 2%;
+}
+
+.middle .box{
+    flex-basis: 25%;
+    border: 2px rgb(59, 17, 2) solid;
+    border-radius: 25px;
+}
+
+.quality{
+    padding:7% 2% 2%;
+    height:400px;
+    width: 30%;
+    margin: auto;
+    text-align: center;
+}
+
+.delivery{
+    height: 500px;
+    width: 40%;
+    padding:10% 3% 3%;
+    text-align: center;
+    margin: 3%;
+}
+.delicious{
+    width: 30%;
+    height: 400px;
+    padding: 7% 2% 2%;
+    margin: auto;
+    text-align: center;
+}
+.middle h2{
+    color:#550312
+}
+
+        /* Page Three Styles */
+        .our{
+            text-align: center;
+            text-decoration: underline 10px orange;
+        }
+            /* Page Four Styles */
+  .Services{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  .dble{
+    flex-basis: 25%;
+    border-radius: 25px;
+    border: 1px white solid;
+    height: auto;
+    text-align: center;
+    padding: 2%;
+    margin: 2%;
+    box-shadow:0 5px 15px ;
+  }
+  
+  .Services .dble h4{
+    color:#550312;
+    font-size: 20px;
+  }
+
+  .Services .dble p{
+    font-size: 20px;
+    line-height:30px ;
+  }
+  
+ .item{ float: right;
+margin-right: 15%;
+border-radius:25px;
+position: relative;
+background-color: lightgrey;
+text-align: center;
+border: none;
+padding: 8px;
+padding-left: 5%;
+padding-right: 5%;
+
+ }
+  
+  .price{
+    float: left;
+    font-size: larger;
+  }
+
+  .ba{
+    float: right;
+    margin-right: 15%;
+    border-radius: 25px;
+    position: relative;
+    background-color: rgb(232, 225, 225);
+    align-items: center;
+    border: none;
+    padding: 8px;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
+     /* Styles  Page Five */
+
+      .blank{
+        margin-top: 10%;
+        display: flex;
+        justify-content: space-evenly;
+     }
+    
+     .layer{
+        float: left;
+     }
+     .snap{
+        float: right;
+     } 
+    
+     .blank .layer h1{
+        font-size: 50px;
+     }
+     .blank .layer p{
+        font-size: x-large;
+        color: lightslategray;
+     }
+     
+     .dot{border-radius: 50%;
+        display: flex;
+    width: 25px;
+    height: 25px;
+    justify-content: space-around;
+    align-items: center;
+     }
+     .aa{
+        padding: 2%;
+        background-color:orange;
+
+     }
+
+       /* Styles to Page five */
+
+       .apps{
+        background-color: orange;
+        display: flex;
+        justify-content: space-around;
+        height:auto;
+        flex-basis:10%;
+       }
+       .screenshot{
+        display: flex;
+        justify-content: space-around;
+        flex-basis:60%;
+        padding: 5% 5% 5%;
+        height: 620px ;
+        
+       }
+       .mobile{
+        padding: 8% 4% 10%;
+        width:40% ;
+       }
+
+       .apps .mobile h1{
+        font-size:50px;
+        font-weight:800px;
+       }
+        
+       /* Styles to Last Page */
+
+       .end{
+        background-color:whitesmoke;
+        margin-top: 1%;
+        height: auto;
+       }
+
+
+       .last{
+        display: flex;
+        justify-content:space-between;
+       }
+       
+       .bgr{
+        display: flex;
+        margin-top: 8%;
+        margin-bottom:10%;
+       }
+      .bgr h1{
+        margin-top: 30%;
+        font-size: 30px;
+
+       }
+       
+       .end .last .bgr img{
+        width: 100px;
+       }
+
+       .cite{
+        margin-top: 5%;
+        margin-left: 10%;
+        text-align: center;
+       }
+
+       .enroll{
+        margin-top: 5%;
+        margin-right: 10%;
+       }
+
+       .mail{
+        display: flex;
+        flex-basis:5% ;
+        text-align: center;
+        font-size: smaller;
+       }
+       .email{
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+        padding:10px;
+        text-align: center;
+        border: darkgray;
+        
+       }
+
+       .bar{
+        text-align: center;
+        padding: 10px;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+        color: white;
+        background-color: orange;
+        border: darkgray;
+       }
+        
+       /* Footer Styles */
+
+       .foot{
+        display: flex;
+        justify-content: space-around;
+       }
+       .media{
+        display: flex;
+        justify-content: space-between;
+        flex-basis: 15%;
+       }
+
+       .media a{
+        color: black;
+       }
+
+       .media a:hover{
+        color: orange;
+       }
